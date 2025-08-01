@@ -6,7 +6,9 @@ Use the versions of the packages listed in Requirements.txt in Python environmen
 
 # Reproducing results
 Dataset - Use the WAY-EEG-GAL Dataset developed by Luciw et.al. for this experiment. The instructions of selecting the EEG files from WAY-EEG-GAL dataset is given in ReadMe file in Code folder
+
 Data - The Data folder consists of two files, The file written 'Each Feature and Force Data' consists of the ERP, PSD and ERDS features used in the original study and their respective force values, while the 'Model Performance Data' shows the performance results of the models developed in the original study. 
+
 Code - This folder consists of three subfolders, these are:
 1. EEGForceMap with Regressors: contains all the four regressor models (Simple Linear Regressor, Multiple Linear Regressor, Partial Least Square Regressor and Neural Network Regressor) which were integrated with EEGForceMap.
 2. Feature Analysis: Consists of Codes required for reading and plotting the Excel file given in the Data folder in the folder 'Each Feature and Force Data'
